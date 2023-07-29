@@ -1,0 +1,236 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 28 22:25:18 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>447 seconds (447808 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testclasses.InventoryTest.remove2products()'><b>remove2products</b><br>Test class: com.testclasses.InventoryTest<br/>
+<a href="#Output-1556201248" onClick='toggleBox("Output-1556201248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1556201248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1556201248">
+Count of products after removal-3<br/>
+</div>
+</td>
+<td></td>
+<td>22</td>
+<td>com.testclasses.InventoryTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.testclasses.InventoryTest.verifyProductLabel()'><b>verifyProductLabel</b><br>Test class: com.testclasses.InventoryTest<br/>
+<a href="#Output-33299582" onClick='toggleBox("Output-33299582", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-33299582" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-33299582">
+Original label -Products<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.InventoryTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.testclasses.TC_HP_01.verifyLogo()'><b>verifyLogo</b><br>Test class: com.testclasses.TC_HP_01<br/>
+<a href="#Output-687472349" onClick='toggleBox("Output-687472349", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-687472349" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-687472349">
+Visibility of Logo-true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.TC_HP_01@7a35b0f5</td></tr>
+<tr>
+<td title='com.testclasses.ShoppingCartTest.verifyCartPageUrl()'><b>verifyCartPageUrl</b><br>Test class: com.testclasses.ShoppingCartTest<br/>
+<a href="#Output-1053273441" onClick='toggleBox("Output-1053273441", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1053273441" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1053273441">
+Actual Url of Website is -https://www.saucedemo.com/cart.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.ShoppingCartTest@c430e6c</td></tr>
+<tr>
+<td title='com.testclasses.InventoryTest.verifyFbPresent()'><b>verifyFbPresent</b><br>Test class: com.testclasses.InventoryTest<br/>
+<a href="#Output-1108374296" onClick='toggleBox("Output-1108374296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1108374296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1108374296">
+Visibility of Logo-true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.InventoryTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.testclasses.ShoppingCartTest.verifyCartLabel()'><b>verifyCartLabel</b><br>Test class: com.testclasses.ShoppingCartTest<br/>
+<a href="#Output-1389771646" onClick='toggleBox("Output-1389771646", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1389771646" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1389771646">
+Actual Label of Website is -Your Cart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.ShoppingCartTest@c430e6c</td></tr>
+<tr>
+<td title='com.testclasses.TC_HP_01.verifyTitleTest()'><b>verifyTitleTest</b><br>Test class: com.testclasses.TC_HP_01<br/>
+<a href="#Output-1017050857" onClick='toggleBox("Output-1017050857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1017050857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1017050857">
+tile  of Application-Swag Labs<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.TC_HP_01@7a35b0f5</td></tr>
+<tr>
+<td title='com.testclasses.TC_HP_01.verifyUrlTest()'><b>verifyUrlTest</b><br>Test class: com.testclasses.TC_HP_01<br/>
+<a href="#Output-445554393" onClick='toggleBox("Output-445554393", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-445554393" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-445554393">
+Original Url of Application-https://www.saucedemo.com/<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.TC_HP_01@7a35b0f5</td></tr>
+<tr>
+<td title='com.testclasses.InventoryTest.verifyTwitterPresent()'><b>verifyTwitterPresent</b><br>Test class: com.testclasses.InventoryTest<br/>
+<a href="#Output-276022884" onClick='toggleBox("Output-276022884", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-276022884" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-276022884">
+Visibility of Logo-true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.InventoryTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.testclasses.InventoryTest.verifyLinkedinPresent()'><b>verifyLinkedinPresent</b><br>Test class: com.testclasses.InventoryTest<br/>
+<a href="#Output-364998425" onClick='toggleBox("Output-364998425", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-364998425" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-364998425">
+Visibility of Logo-true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.InventoryTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.testclasses.TC_HP_01.loginToAppTest()'><b>loginToAppTest</b><br>Test class: com.testclasses.TC_HP_01<br/>
+<a href="#Output-117052390" onClick='toggleBox("Output-117052390", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117052390" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117052390">
+Current Url of Application-https://www.saucedemo.com/inventory.html<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.TC_HP_01@7a35b0f5</td></tr>
+<tr>
+<td title='com.testclasses.InventoryTest.addAllProducts()'><b>addAllProducts</b><br>Test class: com.testclasses.InventoryTest<br/>
+<a href="#Output-1513124396" onClick='toggleBox("Output-1513124396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1513124396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1513124396">
+ Total Products added5<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.testclasses.InventoryTest@4d0d9fe7</td></tr>
+<tr>
+<td title='com.testclasses.InventoryTest.verifyLogoPresent()'><b>verifyLogoPresent</b><br>Test class: com.testclasses.InventoryTest<br/>
+<a href="#Output-805659195" onClick='toggleBox("Output-805659195", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-805659195" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-805659195">
+Visibility of Logo-true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testclasses.InventoryTest@4d0d9fe7</td></tr>
+</table><p>
+</body>
+</html>
